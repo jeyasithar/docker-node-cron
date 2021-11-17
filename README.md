@@ -6,7 +6,7 @@ Docker image that runs node scheduled tasks from OS native cron
 
 ```yml
   cronjobs:
-    image: brunobertolini/node-cron:0.1.0
+    image: talpeo/docker-node-cron:0.1.0
     environment:
       - CRONTAB_FILE=./crontab
     volumes:
